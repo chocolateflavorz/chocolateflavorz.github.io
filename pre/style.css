@@ -1,0 +1,31 @@
+.crunchcat {
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    margin: 0;
+    background-size: 100%;
+    background-image: url(https://media1.tenor.com/m/-VTD0c9VFSEAAAAd/cronch-crunch.gif);
+    animation: 6s ease-in-out 0s infinite alternate fade;
+}
+.placecat {
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    margin: 0;
+    background-size: 100%;
+    background-image: url(https://media1.tenor.com/m/8QsOaiMKvWQAAAAd/cat-crunch.gif);
+    animation: 6s ease-in-out 3s infinite alternate fade;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+
+    }
+    100% {
+        opacity: 100%;
+    }
+}
