@@ -1,0 +1,19 @@
+
+body {
+    margin: 0;
+}
+.content {
+    text-align: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+#title {
+    font-family: "Hanalei", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.content * {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
